@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "咪咕防剧透",
+  "version": "1.1.0",
+  "description": "屏蔽咪咕视频赛事回放页面中的比分信息，防止剧透，保护观看体验，支持视频嗅探下载。",
+  "homepage_url": "https://github.com/kalamicode/migu-score-hider",
+  "icons": {
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "storage",
+    "downloads",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "咪咕防剧透"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.miguvideo.com/p/detail/*", "*://www.miguvideo.com/p/vertical/*", "*://m.miguvideo.com/m/vertical/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["page-downloader.js", "page-sniffer.js"],
+      "matches": ["*://www.miguvideo.com/*"]
+    }
+  ],
+  "host_permissions": [
+    "*://www.miguvideo.com/p/detail/*",
+    "*://www.miguvideo.com/p/vertical/*",
+    "*://m.miguvideo.com/m/vertical/*",
+    "*://*.miguvideo.com/*",
+    "*://*.miguvod.com/*"
+  ]
+}

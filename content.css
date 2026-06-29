@@ -1,0 +1,10 @@
+.vdetail-title,
+.post-text,
+.detail,
+.detail.two {
+  visibility: hidden !important;
+}
+
+.migu-score-processed {
+  visibility: visible !important;
+}

@@ -1,0 +1,6 @@
+# 开发工具缓存
+.codegraph/
+.ruff_cache/
+
+# AI 提示词配置
+AGENTS.md
