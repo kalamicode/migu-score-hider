@@ -12,10 +12,22 @@
 
 ## 安装
 
+### 方法一：git clone（推荐）
+
+```bash
+git clone https://github.com/kalamicode/migu-score-hider.git
+```
+
+### 方法二：下载 Release 压缩包
+
+前往 [Releases](https://github.com/kalamicode/migu-score-hider/releases) 页面下载最新版本的 ZIP 文件并解压。
+
+### 加载扩展
+
 1. 打开 Chrome 浏览器，访问 `chrome://extensions`
 2. 开启右上角的 **开发者模式**
 3. 点击 **加载已解压的扩展程序**
-4. 选择本项目根目录
+4. 选择项目文件夹
 
 ## 使用
 
