@@ -12,7 +12,22 @@
 
 ## 插件截图
 
-<img width="432" height="372" alt="屏幕截图 2026-06-29 193855" src="https://github.com/user-attachments/assets/9da1c9bb-764b-4bcb-920a-b8a0ecb6f1a9" />
+**插件弹窗界面**
+
+<img width="432" height="372" alt="屏幕截图 2026-06-29 193855" src="https://github.com/user-attachments/assets/9da1c9bb-764b-4bcb-920a-b8a0ecb6f1a9" /><br>
+
+**使用前后对比**
+
+<table>
+  <tr>
+    <td align="center"><b>使用前</b></td>
+    <td align="center"><b>使用后</b></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/92c5503a-de83-4ee6-8328-ab26a7438854" width="425"></td>
+    <td><img src="https://github.com/user-attachments/assets/5344f44d-2137-47d1-9863-15af13fbd2dd" width="460"></td>
+  </tr>
+</table>
 
 ## 安装
 
