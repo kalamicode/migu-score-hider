@@ -10,6 +10,10 @@
 - **视频下载**：支持分片下载 m3u8 视频（含暂停/继续/取消）
 - **一键开关**：通过扩展图标弹窗控制功能开关
 
+## 插件截图
+
+<img width="432" height="372" alt="屏幕截图 2026-06-29 193855" src="https://github.com/user-attachments/assets/9da1c9bb-764b-4bcb-920a-b8a0ecb6f1a9" />
+
 ## 安装
 
 ### 方法一：git clone（推荐）
