@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "咪咕防剧透",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "屏蔽咪咕视频赛事回放页面中的比分信息，防止剧透，保护观看体验，支持视频嗅探下载。",
   "homepage_url": "https://github.com/kalamicode/migu-score-hider",
   "icons": {
