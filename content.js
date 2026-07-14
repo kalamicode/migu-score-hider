@@ -30,6 +30,8 @@
 
     const SCORE_REGEX = /([\u4e00-\u9fa5][\u4e00-\u9fa5a-zA-Z0-9]*)\s*(\d{1,2})\s*:\s*(\d{1,2})\s*([\u4e00-\u9fa5][\u4e00-\u9fa5a-zA-Z0-9]*)/g;
     const SCORE_REPLACEMENT = '$1 VS $4';
+    const PENALTY_REGEX = /[（(]?\s*点球\s*\d{1,2}\s*:\s*\d{1,2}\s*[）)]?/g;
+    const PENALTY_REPLACEMENT = '';
 
     const SELECTORS = [
       '.vdetail-title',
@@ -41,7 +43,8 @@
     ];
 
     function hideScoreInText(text) {
-      return text.replace(SCORE_REGEX, SCORE_REPLACEMENT);
+      return text.replace(SCORE_REGEX, SCORE_REPLACEMENT)
+                 .replace(PENALTY_REGEX, PENALTY_REPLACEMENT);
     }
 
     function processElement(el) {
